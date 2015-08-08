@@ -1,0 +1,8 @@
+<h1>POSTS</h1>
+<div ng-repeat="post in posts">
+  <p>id: {{post.id}}</p>
+  <p>title: {{post.title}}</p>
+  <p>body: {{post.body}}</p>
+  <button ng-click="destroyPost(post)">Borrar</button>
+  <hr>
+</div>
